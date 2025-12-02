@@ -43,6 +43,9 @@
 (setq org-directory "~/org/")
 
 
+;; Set the Doom Emacs banner image
+(setq fancy-splash-image "assets/banners/M-x_butterfly.png")
+
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
 ;;
