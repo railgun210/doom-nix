@@ -15,7 +15,7 @@
 ;;   :recipe (:host github :repo "username/repo"))
 
 ;; Everforest Theme
-(package! everforest :recipe (:repo "https://github.com/theorytoe/everforest-emacs.git") :pin "ba61a88")
+(package! everforest :recipe (:repo "https://github.com/theorytoe/everforest-emacs.git") :pin "ba61a881b5d57810eef76baae01c951d1e6c2ceb")
 
 ;; If the package you are trying to install does not contain a PACKAGENAME.el
 ;; file, or is located in a subdirectory of the repo, you'll need to specify
