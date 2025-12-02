@@ -21,8 +21,8 @@
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
 ;;
-(setq doom-font (font-spec :family "Ubuntu Nerd Font" :size 14 :weight 'Medium)
-      doom-variable-pitch-font (font-spec :family "Tinos Nerd Font" :size 15))
+(setq doom-font (font-spec :family "Ubuntu Nerd Font" :size 16 :weight 'Medium)
+      doom-variable-pitch-font (font-spec :family "Tinos Nerd Font" :size 17))
 ;;
 ;; If you or Emacs can't find your font, use 'M-x describe-font' to look them
 ;; up, `M-x eval-region' to execute elisp code, and 'M-x doom/reload-font' to
@@ -44,7 +44,7 @@
 
 
 ;; Set the Doom Emacs banner image
-(setq fancy-splash-image "assets/banners/M-x_butterfly.png")
+(setq fancy-splash-image (concat doom-private-dir "assets/banners/M-x_butterfly.png"))
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
